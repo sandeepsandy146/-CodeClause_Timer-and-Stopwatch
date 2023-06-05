@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timer and Stopwatch</h1>
+    <div class="timer">
+      <h2>Timer</h2>
+      <input type="text" id="timerInput" placeholder="HH:MM:SS">
+      <button onclick="sandeep Timer()">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+      <button onclick="resetTimer()">Reset</button>
+      <h3 id="timerDisplay">00:00:00</h3>
+    </div>
+    <div class="stopwatch">
+      <h2>Stopwatch</h2>
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="resetStopwatch()">Reset</button>
+      <h3 id="stopwatchDisplay">00:00:00</h3>
+    </div>
+  </div>
+  
+  <script src="script1.js"></script>
+</body>
+</html>
